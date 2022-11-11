@@ -1,0 +1,65 @@
+#container {
+        background: rgb(0, 0, 0);
+        font-family: arial;
+		display: grid;
+    	grid-row-gap: 5%;
+		grid-template-rows : minmax(50px,20%) minmax(50px,10%) minmax(50px,10%) minmax(50px,10%);
+        width: 100vw;
+		height: 100vh;
+		justify-items: center;
+        font-family: 'Silkscreen', cursive;
+}
+
+
+#question  {
+	     
+		grid-aera: 1 / 2;
+		align-self: end;
+		text-align: center;
+		margin: 1% 5% 1% 5%;
+		font-size: 5vh;
+		color: white;
+        font-family: 'Silkscreen', cursive;	
+}
+
+
+#reponse {
+       height: 10vh;  
+       width: 50vw;
+       text-align: center; 
+       grid-row: 2 / 3 ;  
+       border-radius: 2vh;
+       font-size: 6vh;
+       transition-duration: 0.7s;
+       font-family: 'Silkscreen', cursive;
+}
+
+
+#boutonValider {
+	   border-radius: 10px;
+	   background-color: rgb(233, 29, 46);
+	   height: 7vh;
+	   grid-row: 3 / 4;
+	   font-size: 4vh;
+	   transition-duration: 0.7s;
+	   color: white;
+       font-family: 'Silkscreen', cursive;
+}
+
+
+#score {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		grid-row: 4 / 5;
+		font-size: 8vh;
+}
+
+
+
+
+
+
+
+
+
